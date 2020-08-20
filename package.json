@@ -2,6 +2,7 @@
   "name": "time-formats",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dma0210.github.io/date-format-dm/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -9,7 +10,9 @@
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
